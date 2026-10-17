@@ -1,0 +1,14 @@
+{
+  "name": "mcp-apps-tv-host",
+  "version": "0.1.0",
+  "description": "Render MCP Apps (ui:// resources) on a TV: an MCP Apps host for WebView-based TV platforms with a D-pad focus shim. Vega (Fire TV) React Native component included.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./vega": "./vega/AppHost.tsx"
+  },
+  "files": ["src", "vega", "README.md", "LICENSE"],
+  "keywords": ["mcp", "mcp-apps", "model-context-protocol", "tv", "fire-tv", "vega", "d-pad", "webview"],
+  "scripts": { "typecheck": "tsc -p tsconfig.json --noEmit" }
+}
