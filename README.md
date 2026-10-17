@@ -64,7 +64,7 @@ Your server proxies `tools/call` to the MCP server that served the app and retur
 
 `vitest` covers the handshake, tool proxying, origin checks, link refusal, `ui/message`, HTML escaping (an app's
 `</script>` cannot break out of the host script) and the `data:` URI round trip. Verified end to end on the Vega
-Virtual Device in [Couchside](https://github.com/) (a week-calendar app navigated with the D-pad, calling tools
+Virtual Device in Couchside (a bring-your-own-AI voice harness for Fire TV) (a week-calendar app navigated with the D-pad, calling tools
 through React Native, a WebSocket and an MCP server).
 
 ## Licence
