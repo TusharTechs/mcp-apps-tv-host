@@ -63,9 +63,14 @@ Your server proxies `tools/call` to the MCP server that served the app and retur
 ## Tests
 
 `vitest` covers the handshake, tool proxying, origin checks, link refusal, `ui/message`, HTML escaping (an app's
-`</script>` cannot break out of the host script) and the `data:` URI round trip. Verified end to end on the Vega
-Virtual Device in Couchside (a bring-your-own-AI voice harness for Fire TV) (a week-calendar app navigated with the D-pad, calling tools
-through React Native, a WebSocket and an MCP server).
+`</script>` cannot break out of the host script) and the `data:` URI round trip.
+
+## In use
+
+Verified end to end on the Vega Virtual Device in [Couchside](https://github.com/TusharTechs/couchside), a
+bring-your-own-AI voice harness for Fire TV: a family week view navigated with the D-pad, and a live sports scoreboard
+that keeps calling its own MCP server through the bridge (`tools/call` → React Native → WebSocket → the MCP server).
+See both in the [Couchside demo](https://youtu.be/7ffUjDRi-4Q) at 1:25 (scoreboard) and 2:27 (week view).
 
 ## Licence
 
