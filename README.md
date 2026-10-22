@@ -3,6 +3,8 @@
 Render [MCP Apps](https://modelcontextprotocol.io/extensions/apps/overview) (interactive `ui://` resources from MCP
 servers) on a **TV**, driven by a **remote control**. Built for Fire TV on Vega OS, usable on any WebView-based TV.
 
+**▶ Demo (1:10):** https://youtu.be/df8LmDMB_ec, recorded on the Vega Virtual Device.
+
 MCP Apps today run in chat hosts on desktops and phones, where a mouse or a finger is assumed. A TV has neither: it has
 a D-pad, a 10-foot viewing distance and, on Vega, a WebView with its own quirks. This package is the missing host:
 
